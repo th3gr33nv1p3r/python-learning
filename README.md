@@ -14,6 +14,7 @@ This repository documents my journey learning Python for data analysis.
 - Tuples
 - Sets
 
-## Current Progress
+## Completed Topics
 
-- Operator exercises with real-world data scenarios
+- Operators
+- Variables
