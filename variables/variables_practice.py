@@ -49,4 +49,62 @@ remaining_money = monthly_income - total_expenses
 # print(f"Expenses: ${total_expenses}")
 # print(f"Remaining Money: ${remaining_money}")
 
-# Exercise 5 - Temperature Converter dfdffgfgfgfgfgfgfdfdffdferttuh
+# Exercise 5 - Temperature Converter
+
+celsius = 25
+fahrenheit = (celsius * 9/5) + 32
+
+# print(f"Temperature: {celsius}°C")
+# print(f"Temperature: {fahrenheit}°F")
+
+# Exercise 6 - Identify Data Types
+
+name = "Alice"
+# print(type(name))
+
+age = 30
+# print(type(age))
+
+height = 5.7
+# print(type(height))
+
+is_programmer = True
+# print(type(is_programmer))
+
+# Exercise 7 - String Formatting
+
+product_name = "Tv remote"
+price = 30
+quantity = 340
+
+total = price * quantity
+
+# print("Receipt")
+# print("------------")
+# print(f"Product: {product_name}")
+# print(f"Price: ${price}")
+# print(f"Quantity: {quantity}")
+# print(f"Total: ${total}")
+
+# Exercise 8 - Mini Project: Order System
+
+customer_name = "Michael"
+item_name = "bag of bagels"
+item_price = 4
+quantity = 10
+tax_rate = 0.08 # 8% tax
+
+subtotal = item_price * quantity
+tax = subtotal * tax_rate
+total = subtotal + tax
+
+print("Order Summary")
+print("------------")
+print(f"Customer: {customer_name}")
+print(f"Item: {item_name}")
+print(f"Price: ${item_price}")
+print(f"Quantity: {quantity}")
+print("------------")
+print(f"Subtotal: ${subtotal}")
+print(f"Tax: ${tax}")
+print(f"Total: {total}")
