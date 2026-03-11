@@ -20,21 +20,21 @@ age = 25
 career_goal = "Data Analyst"
 study_hours_per_day = 2
 
-# print(f"My name is {name}. I am {age} years old.")
-# print(f"My goal is to become a {career_goal}.")
-# print(f"I study Python {study_hours_per_day} hours per day.")
+print(f"My name is {name}. I am {age} years old.")
+print(f"My goal is to become a {career_goal}.")
+print(f"I study Python {study_hours_per_day} hours per day.")
 
 # Exercise 2 - Swapping Values
 
 x = 10
 y = 20
 
-# print(f"Before swap: x = {x}, y = {y}")
+print(f"Before swap: x = {x}, y = {y}")
 
 # Swap values
 x, y = y, x
 
-# print(f"After swap: x = {x}, y = {y}")
+print(f"After swap: x = {x}, y = {y}")
 
 # Exercise 3 - User Profile Variables
 
@@ -43,12 +43,12 @@ country = "China"
 favorite_number = 10
 is_learning_python = True
 
-# print("User Profile")
-# print("------------")
-# print(f"Username: {username}")
-# print(f"Country: {country}")
-# print(f"Favorite Number: {favorite_number}")
-# print(f"Learning Python: {is_learning_python}")
+print("User Profile")
+print("------------")
+print(f"Username: {username}")
+print(f"Country: {country}")
+print(f"Favorite Number: {favorite_number}")
+print(f"Learning Python: {is_learning_python}")
 
 # Exercise 4 - Simple Finance Calculator
 
@@ -60,31 +60,31 @@ monthly_transportation = 120
 total_expenses = monthly_rent + monthly_food_budget + monthly_transportation
 remaining_money = monthly_income - total_expenses
 
-# print(f"Income: ${monthly_income}")
-# print(f"Expenses: ${total_expenses}")
-# print(f"Remaining Money: ${remaining_money}")
+print(f"Income: ${monthly_income}")
+print(f"Expenses: ${total_expenses}")
+print(f"Remaining Money: ${remaining_money}")
 
 # Exercise 5 - Temperature Converter
 
 celsius = 25
 fahrenheit = (celsius * 9/5) + 32
 
-# print(f"Temperature: {celsius}°C")
-# print(f"Temperature: {fahrenheit}°F")
+print(f"Temperature: {celsius}°C")
+print(f"Temperature: {fahrenheit}°F")
 
 # Exercise 6 - Identify Data Types
 
 name = "Alice"
-# print(type(name))
+print(type(name))
 
 age = 30
-# print(type(age))
+print(type(age))
 
 height = 5.7
-# print(type(height))
+print(type(height))
 
 is_programmer = True
-# print(type(is_programmer))
+print(type(is_programmer))
 
 # Exercise 7 - String Formatting
 
@@ -94,12 +94,12 @@ quantity = 340
 
 total = price * quantity
 
-# print("Receipt")
-# print("------------")
-# print(f"Product: {product_name}")
-# print(f"Price: ${price}")
-# print(f"Quantity: {quantity}")
-# print(f"Total: ${total}")
+print("Receipt")
+print("------------")
+print(f"Product: {product_name}")
+print(f"Price: ${price}")
+print(f"Quantity: {quantity}")
+print(f"Total: ${total}")
 
 # Exercise 8 - Mini Project: Order System
 
