@@ -1,3 +1,18 @@
+"""
+variables_practice.py
+
+This file contains exercises focused on mastering Python variables.
+Topics covered:
+- Variable creation
+- Data types
+- Arithmetic operations
+- String formatting
+- Basic real-world calculations
+
+Goal:
+Build a strong Python foundation for Data Analysis and Data Science.
+"""
+
 # Exercise 1 - Basic Variables
 
 name = "Mohamed"
